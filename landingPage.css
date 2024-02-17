@@ -391,7 +391,7 @@ a {
     margin: 0px;
     margin-left: 10px;
     margin-right: 10px;
-    /* color: #454545; */
+    color: #737171;
     font-size: 16px;
     font-weight: 400;
     border: none;
@@ -400,6 +400,7 @@ a {
 
 
 }
+
 
 .input2 {
     display: flex;
@@ -1688,6 +1689,7 @@ a {
     border: 2px solid #fff;
     border-radius: 5px;
     outline: none;
+    padding-left: 10px;
     
 }
 .inp151::placeholder{
@@ -1708,6 +1710,7 @@ a {
 }
 
 .btnGet{
+    
     border: 2px solid #fff;
     border-radius: 3px;
     display: flex;
@@ -1718,11 +1721,14 @@ a {
     margin-top: 5px;
     color: #e52e36;
     background-color: #ffffff;
-    opacity: 1;
     font-weight: 700;
     font-size: 15px;
     transition: all 0.5s ease;
     border: none;
+    opacity: 1;
+    z-index: 1000;
+
+
 }
 
 .btnGet:hover{
@@ -2076,6 +2082,10 @@ a {
     }
     .inp152{
         width: 100%;
+
+    }
+    .btnGet{
+        opacity: 1;
 
     }
 
