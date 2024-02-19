@@ -1796,7 +1796,9 @@ a {
         justify-content: space-between;
         align-items: center;
     }
-
+    .header1{
+        width: calc(100% - 20px);
+    }
     .bar {
         display: flex;
         /* margin-left: calc(100% - 45px); */
